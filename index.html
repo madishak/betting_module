@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Madina Krch</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="ratings__headline">
+        <h2>Топ букмекерских контор</h2>
+        <button type="button"></button>
+    </div>
+
+      <div class="ratings__tabs">
+        <button type="button" class="ratings__tablink" id="defaultTab" data-type="default">Народный рейтинг</button>
+        <button type="button" class="ratings__tablink" id="tab2" data-type="even_id">Рейтинг редакции</button>
+        <button type="button" class="ratings__tablink" id="tab3" data-type="odd_id">Рейтинг по бонусу</button>
+        <button type="button" class="ratings__tablink" id="tab4" data-badge="exclusive">Рейтинг по надежности</button>
+      </div>
+
+    <table class="ratings ratings__default"></table>
+    <table class="ratings ratings__content"></table>
+    <table class="ratings ratings__content"></table>
+    <table class="ratings ratings__content"></table>
+
+     <div class="ratings__links">
+        <a href="#">Смотреть дальше &#8594;</a>
+        <a href="#">Как формируется рейтинг?</a>
+    </div>
+
+    <a class="ratings__links--mobile" href="#">
+      СМОТРЕТЬ ПОЛНЫЙ РЕЙТИНГ
+    </a>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+   "type": "module",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "lite-server": "^2.6.1"
+  }
+}
